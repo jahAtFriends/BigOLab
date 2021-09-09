@@ -1,4 +1,4 @@
-# BigOLab
+# BigO Lab
 
 In this lab you will investigate the running time of two separate algorithms
 which solve the same problem: Dynamic Connectivity.
@@ -55,9 +55,14 @@ public class QuickFind implements UnionFinder {
         //Check if a and b have the same id.
     
     }
-
 } 
 ```
 
-This is called "Quick Find" because the find operation is only one step.
+This is called "Quick Find" because the `find()` operation is only one step. The
+`union()` process is much more difficult since you must look for everything
+connected to one node and change it to match the id of another.
 
+###Quick Union
+
+Quick Union uses a different data structure called a _tree_ to manage the
+connections in a system.
