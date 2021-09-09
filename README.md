@@ -56,7 +56,8 @@ public class QuickFind implements UnionFinder {
     
     }
 
-} ```
+} 
+```
 
 This is called "Quick Find" because the find operation is only one step.
 
