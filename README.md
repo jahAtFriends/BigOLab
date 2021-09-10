@@ -3,8 +3,7 @@
 In this lab you will investigate the running time of two separate algorithms
 which solve the same problem: Dynamic Connectivity.
 
-[For Documentation, Click Here](https://friendsbaltcs.github.io/docs/ACS
-/BigOLab/UnionFinder.html)
+[Documentation](https://friendsbaltcs.github.io/docs/ACS/BigOLab/UnionFinder.html)
 
 ## Dynamic Connectivity
 
