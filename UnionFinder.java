@@ -47,6 +47,9 @@ public interface UnionFinder {
     * Determines if a connection between node a and node b exists.
     * @param a the first node to be checked.
     * @param b the second node to be checked.
+    *
+    * @return {@code true} if {@code a} and {@code b} are connected
+    * by some path (directly or indirectly).
     */
     public boolean find(int a, int b);
 }
