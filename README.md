@@ -3,6 +3,9 @@
 In this lab you will investigate the running time of two separate algorithms
 which solve the same problem: Dynamic Connectivity.
 
+[For Documentation, Click Here](https://friendsbaltcs.github.io/docs/ACS
+/BigOLab/UnionFinder.html)
+
 ## Dynamic Connectivity
 
 The dynamic connectivity problem begins with a set of _n_ nodes all initially
