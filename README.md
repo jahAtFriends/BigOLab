@@ -125,7 +125,7 @@ somewhat faster in practice.
 You will write three separate classes for this assignment:
 
 1. An implementation of Quick Find
-2. An implementation of Quick Union
+2. An implementation of Weighted Quick Union
 3. A Randomizer class that generates a random set of unions for a system of
 n nodes.
 
@@ -133,3 +133,6 @@ Using the Randomizer class, test the classes for Quick Find and Quick Union
 with larger and large sets of unions. How do the runtimes compare when
 computing larger and larger data sets. Do the runtimes seem to be consistent
 with what was stated in class.
+
+You do not need to include path compression in your weighted quick union, but
+for two extra points, add it in!
