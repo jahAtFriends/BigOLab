@@ -33,7 +33,10 @@
 public interface UnionFinder {
 	
 	/**
-    * Connects two given nodes.
+    * Connects two given nodes. Importantly, this method should first checked
+    * if the two nodes are already connected by calling {@code find(a,b)}.
+    * In the case that they are already connected, nothing further should be
+    * done.
     *
     * @param a the first node to be connected.
     * @param b the second node to be connected.
