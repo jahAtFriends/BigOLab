@@ -1,12 +1,3 @@
-/*
-* Friends School adaptation of a lab by Robert Sedgewick described at
-* https://introcs.cs.princeton.edu/java/24percolation/
-*
-*
-* (c) 2021 Joel Hammer, Friends School of Baltimore.
-*/
-
-
 public class QuickFind implements UnionFinder {
     
     public UnionFinder(int n) {
@@ -27,5 +18,11 @@ public class QuickFind implements UnionFinder {
         
         //TODO: Implement this method.
         
+    }
+    
+    public static void main(String[] args) {
+        
+        //TODO: Test me!
+        // You can use a scanner to take inputs saved to a file.
     }
 }
