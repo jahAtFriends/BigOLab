@@ -28,7 +28,13 @@
 * For the mathematically inclined, we say that {@code find(a,b)} is a kind
 * of <i>equivalance relation </i> with the properties that 
 * <ol type="1">
-* <li> 
+*   <li> {@code find(a,b)} is equivalent to {@code find(b,a)} 
+*        <b>(Symmetry)</b> </li>
+*   <li> {@code find(a,a)} returns {@code true} <b>(Reflexifity)</b> </li>
+*   <li> If {@code find(a,b)} and {@code find(b,c)} both return {@code true},
+*        then {@code find(a,c)} also returns {@code true}.
+*        <b>(Transitivity)</b> </li>
+*   </ol>
 */
 public interface UnionFinder {
 	
