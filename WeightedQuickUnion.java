@@ -1,6 +1,6 @@
 public class WeightedQuickUnion implements UnionFinder {
     
-    public UnionFinder(int n) {
+    public WeightedQuickUnion(int n) {
         
         //TODO: Construct a dynamic connection system of n items.
         
