@@ -74,19 +74,20 @@ to it. So whenever we call
 ```java
 union(a,b)
 ```
-We make `b` a parent of `a` (by convention we make the first parameter a
-_child_ of the second). We can store this in a simple id array just as before,
-but this time `id[i]` will store the index of its _parent_. If a node is its
-own parent, then it is the _root_ or top of the tree. The code looks something 
-like this:
+We make the root (see below) of `b` a parent of the root of `a` (by convention we
+make the first parameter a _child_ of the second). We can store this in a simple 
+id array just as before, but this time `id[i]` will store the index of its _parent_.
+If a node is its own parent, then it is the _root_ or top of the tree. The code 
+looks something like this:
 
 ```java
 public class QuickUnion implements UnionFinder {
 
     public void union(int a, int b) {
         
-        //Identify node c, the root of the tree containing a
-        //make b the parent of node c.
+        //Identify node c, the root of the tree containing a and
+        // d, the root of the tree containing b.
+        //make d the parent of node c.
     
     }
     
