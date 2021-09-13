@@ -1,6 +1,6 @@
 public class QuickFind implements UnionFinder {
     
-    public UnionFinder(int n) {
+    public QuickFind(int n) {
         
         //TODO: Construct a dynamic connection system of n items.
         
